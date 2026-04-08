@@ -1,9 +1,9 @@
 # Base requirements
-farm-haystack==0.9.0
+farm-haystack==1.15.1rc1
 matplotlib
 # Colab fix since FARM requires PyTorch v1.8.1 but v1.10.0 is installed by
 # default. See: https://github.com/deepset-ai/haystack/issues/1787
-torch==1.8.1+cu111
+torch==2.8.0
 torchvision==0.9.1+cu111
 torchaudio==0.8.1
 # We need this version because haystack pins 
